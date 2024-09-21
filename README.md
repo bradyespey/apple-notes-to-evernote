@@ -58,8 +58,8 @@ This project automates the migration of Apple Notes into Evernote. It exports no
 
 - The custom `export_markdown_to_enex.py` script wraps around the `md2enex` script and adds enhanced error handling and file logging. Adjust the paths in the script to point to your directories:
   
-  - **Source Directory (Markdown files):** `/Users/bradyespey/Projects/Files/Evernote/iCloud`
-  - **Output Directory (ENEX files):** `/Users/bradyespey/Projects/Files/Evernote/Converted`
+  - **Source Directory (Markdown files):** `/Users/bradyespey/Projects/Evernote/iCloud`
+  - **Output Directory (ENEX files):** `/Users/bradyespey/Projects/Evernote/Converted`
 
 #### 3.2 Run the Conversion
 - Run the `export_markdown_to_enex.py` script. This will:

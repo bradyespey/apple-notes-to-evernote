@@ -53,7 +53,7 @@ with problematic_files_csv.open('w', newline='') as csvfile:
                 # Command for conversion
                 command = [
                     "/usr/bin/python3",
-                    "/Users/bradyespey/Projects/Evernote/md2enex.py",
+                    "/Users/bradyespey/Projects/GitHub/Evernote/md2enex.py",
                     str(folder),
                     "-o",
                     str(enex_file)
