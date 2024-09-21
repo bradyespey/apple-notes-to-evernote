@@ -4,9 +4,9 @@ from pathlib import Path
 import csv
 
 # Paths
-base_directory = Path("/Users/bradyespey/Projects/Files/Evernote/iCloud")
-output_directory = Path("/Users/bradyespey/Projects/Files/Evernote/Converted")
-problematic_files_csv = Path("/Users/bradyespey/Projects/Files/Evernote/enex_file_issues.csv")  # Single CSV for all issues
+base_directory = Path("/Users/bradyespey/Projects/Evernote/iCloud")
+output_directory = Path("/Users/bradyespey/Projects/Evernote/Converted")
+problematic_files_csv = Path("/Users/bradyespey/Projects/Evernote/enex_file_issues.csv")  # Single CSV for all issues
 
 # Create output directories if they don't exist
 output_directory.mkdir(parents=True, exist_ok=True)
